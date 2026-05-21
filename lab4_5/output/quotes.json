@@ -1,0 +1,20 @@
+[
+  {
+    "transport_name": "Поезд (Земля)",
+    "mode": "land",
+    "total_price": 11150.0,
+    "speed_kmh": 60.0,
+    "estimated_hours": 20.0,
+    "cargo_cost": 5150.0,
+    "distance_cost": 6000.0
+  },
+  {
+    "transport_name": "Грузовик (Земля)",
+    "mode": "land",
+    "total_price": 23150.0,
+    "speed_kmh": 80.0,
+    "estimated_hours": 15.0,
+    "cargo_cost": 5150.0,
+    "distance_cost": 18000.0
+  }
+]

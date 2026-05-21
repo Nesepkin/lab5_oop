@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<logistics>
+  <cargo>
+    <item name="Электроника" unit_mass_kg="1.5" delivery_cost_per_kg="50" />
+    <item name="Одежда" unit_mass_kg="0.8" delivery_cost_per_kg="20" />
+    <item name="Оборудование" unit_mass_kg="120.0" delivery_cost_per_kg="15" />
+    <item name="Скоропортящиеся продукты" unit_mass_kg="10.0" delivery_cost_per_kg="100" />
+  </cargo>
+  <transports>
+    <transport name="Грузовик (Земля)" mode="land" delivery_overhead_per_km="15.0" speed_kmh="80" />
+    <transport name="Поезд (Земля)" mode="land" delivery_overhead_per_km="5.0" speed_kmh="60" />
+    <transport name="Танкер (Вода)" mode="water" delivery_overhead_per_km="2.0" speed_kmh="35" />
+    <transport name="Самолет (Воздух)" mode="air" delivery_overhead_per_km="150.0" speed_kmh="850" />
+    <transport name="Вертолет (Воздух)" mode="air" delivery_overhead_per_km="200.0" speed_kmh="250" />
+  </transports>
+</logistics>
